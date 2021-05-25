@@ -4,6 +4,7 @@ window.onload = () => {
 
   // #image2にテキストを描画
   drawImage1();
+  drawImage2();
 
   // 「+」ボタンを押したら合成
   document.querySelector("#btn-concat").addEventListener("click", ()=>{
@@ -40,6 +41,16 @@ function drawImage1(){
     const canvas = document.querySelector("#image1");
     const ctx = canvas.getContext("2d");
     ctx.drawImage(Body1, 0, 0, canvas.width, canvas.height);
+  }
+}
+
+function drawImage2(){
+   const Leg1 = new Image();
+  Leg1.src = "images/leg01.PNG";
+  Leg1.onload = () =>{
+    const canvas = document.querySelector("#image2");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg1, 0, 0, canvas.width, canvas.height);
   }
 }
 
