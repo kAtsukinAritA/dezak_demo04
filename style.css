@@ -3,8 +3,8 @@ canvas{
   margin: 0px 10px 0px 10px;
 }
 button1{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 button2{
   width: 50px;
@@ -19,8 +19,14 @@ button2{
   margin-right: 10px;
 }
 .flex-container {
+  justify-content: center;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.flex-item {
+padding: 10px; /* flex アイテムの余白を指定する */
+margin: 10px; /* flex アイテムの余白を指定する */
+border:1px solid #FF9696; /* flex アイテムの境界線を実線で指定する */
 }
