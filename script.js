@@ -7,8 +7,11 @@ window.onload = () => {
   drawImage2();
 
   // 「+」ボタンを押したら合成
-  document.querySelector("#btn-concat").addEventListener("click", ()=>{
+  document.querySelector("#btn-concat1").addEventListener("click", ()=>{
     concatCanvas("#concat", ["#image1"]);
+    
+      document.querySelector("#btn-concat2").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image2"]);
   });
 
   // 「消しゴム」ボタンを押したらクリア
