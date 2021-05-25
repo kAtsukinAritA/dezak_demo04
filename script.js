@@ -3,11 +3,11 @@ window.onload = () => {
   drawConcat();
 
   // #image2にテキストを描画
-  drawImage2();
+  drawImage1();
 
   // 「+」ボタンを押したら合成
   document.querySelector("#btn-concat").addEventListener("click", ()=>{
-    concatCanvas("#concat", ["#image2"]);
+    concatCanvas("#concat", ["#image1"]);
   });
 
   // 「消しゴム」ボタンを押したらクリア
@@ -33,11 +33,11 @@ function drawConcat(){
 /**
  * [onload] 洋服を描画
  */
-function drawImage2(){
+function drawImage1(){
    const Body1 = new Image();
   Body1.src = "images/body01.PNG";
   Body1.onload = () =>{
-    const canvas = document.querySelector("#image2");
+    const canvas = document.querySelector("#image1");
     const ctx = canvas.getContext("2d");
     ctx.drawImage(Body1, 0, 0, canvas.width, canvas.height);
   }
@@ -59,7 +59,7 @@ function drawImage2(){
 
   for(let i=0; i<asset.length; i++){
     const image2 = await getImagefromCanvas(asset[i]);
-    ctx.drawImage(image2, 0, 0, canvas.width, canvas.height);
+    ctx.drawImage(image1, 0, 0, canvas.width, canvas.height);
   }
 }
 
