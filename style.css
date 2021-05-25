@@ -28,5 +28,5 @@ button2{
 .flex-item {
 padding: 10px; /* flex アイテムの余白を指定する */
 margin: 10px; /* flex アイテムの余白を指定する */
-border:1px solid #FF9696; /* flex アイテムの境界線を実線で指定する */
+border:2px solid #FF9696; /* flex アイテムの境界線を実線で指定する */
 }
