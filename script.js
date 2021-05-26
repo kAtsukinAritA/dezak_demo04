@@ -37,7 +37,7 @@ window.onload = () => {
           else {
               num ++;
           }
-          src=pics_src[num];
+       document.getElementById("images").src=pics_src[num];
       }
   
   document.querySelector("#btn-concat102").addEventListener("click", ()=>{
