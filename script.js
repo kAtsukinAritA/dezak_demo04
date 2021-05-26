@@ -331,7 +331,7 @@ function drawImage206(){
  * @param {string} target 対象canvasのid
  * @return {void}
  */
-function eraseCanvas(asset){
+function eraseCanvas(target){
 //   const Nui = new Image();
 //   Nui.src = "images/nui.PNG";
 //   Nui.onload = () =>{
@@ -340,7 +340,7 @@ function eraseCanvas(asset){
 //     ctx.drawImage(Nui, 0, 0, canvas.width, canvas.height);
 //     }
 
-  const canvas = document.querySelector(asset);
+  const canvas = document.querySelector(target);
   const ctx = canvas.getContext("2d");
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
