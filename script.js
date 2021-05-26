@@ -24,6 +24,12 @@ window.onload = () => {
   drawImage204();
   drawImage205();
   drawImage206();
+  
+  
+   // 「消しゴム」ボタンを押したらクリア
+  document.querySelector("#btn-eraser").addEventListener("click", ()=>{
+    eraseCanvas("#concat");
+  });
 
   // 「+」ボタンを押したら合成
   document.querySelector("#btn-concat").addEventListener("click", ()=>{
@@ -91,10 +97,6 @@ window.onload = () => {
     concatCanvas("#concat", ["#image206"]);
   });
 
-  // 「消しゴム」ボタンを押したらクリア
-  document.querySelector("#btn-eraser").addEventListener("click", ()=>{
-    eraseCanvas("#concat");
-  });
 
 };
 
