@@ -4,7 +4,26 @@ window.onload = () => {
 
   // #image2にテキストを描画
   drawImage1();
+  drawImage102();
+  drawImage103();
+  drawImage104();
+  drawImage105();
+  drawImage106();
+  drawImage107();
+  drawImage108();
+  drawImage109();
+  drawImage110();
+  drawImage111();
+  drawImage112();
+  drawImage113();
+  drawImage114();
+  drawImage115();
   drawImage2();
+  drawImage202();
+  drawImage203();
+  drawImage204();
+  drawImage205();
+  drawImage206();
 
   // 「+」ボタンを押したら合成
   document.querySelector("#btn-concat").addEventListener("click", ()=>{
@@ -47,6 +66,132 @@ function drawImage1(){
     ctx.drawImage(Body1, 0, 0, canvas.width, canvas.height);
   }
 }
+function drawImage102(){
+   const Body2 = new Image();
+  Body2.src = "images/body02.PNG";
+  Body2.onload = () =>{
+    const canvas = document.querySelector("#image102");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body2, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage103(){
+   const Body3 = new Image();
+  Body3.src = "images/body03.PNG";
+  Body3.onload = () =>{
+    const canvas = document.querySelector("#image103");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body3, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage104(){
+   const Body4 = new Image();
+  Body4.src = "images/body04.PNG";
+  Body4.onload = () =>{
+    const canvas = document.querySelector("#image104");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body4, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage105(){
+   const Body5 = new Image();
+  Body5.src = "images/body05.PNG";
+  Body5.onload = () =>{
+    const canvas = document.querySelector("#image105");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body5, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage106(){
+   const Body6 = new Image();
+  Body6.src = "images/body06.PNG";
+  Body6.onload = () =>{
+    const canvas = document.querySelector("#image106");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body6, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage107(){
+   const Body7 = new Image();
+  Body7.src = "images/body07.PNG";
+  Body7.onload = () =>{
+    const canvas = document.querySelector("#image107");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body7, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage108(){
+   const Body8 = new Image();
+  Body8.src = "images/body08.PNG";
+  Body8.onload = () =>{
+    const canvas = document.querySelector("#image108");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body8, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage109(){
+   const Body9 = new Image();
+  Body9.src = "images/body09.PNG";
+  Body9.onload = () =>{
+    const canvas = document.querySelector("#image109");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body9, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage110(){
+   const Body10 = new Image();
+  Body10.src = "images/body10.PNG";
+  Body10.onload = () =>{
+    const canvas = document.querySelector("#image110");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body10, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage111(){
+   const Body11 = new Image();
+  Body11.src = "images/body11.PNG";
+  Body11.onload = () =>{
+    const canvas = document.querySelector("#image111");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body11, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage112(){
+   const Body12 = new Image();
+  Body12.src = "images/body12.PNG";
+  Body12.onload = () =>{
+    const canvas = document.querySelector("#image112");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body12, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage113(){
+   const Body13 = new Image();
+  Body13.src = "images/body13.PNG";
+  Body13.onload = () =>{
+    const canvas = document.querySelector("#image113");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body13, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage114(){
+   const Body14 = new Image();
+  Body14.src = "images/body14.PNG";
+  Body14.onload = () =>{
+    const canvas = document.querySelector("#image114");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body14, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage115(){
+   const Body15 = new Image();
+  Body15.src = "images/body15.PNG";
+  Body15.onload = () =>{
+    const canvas = document.querySelector("#image115");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body15, 0, 0, canvas.width, canvas.height);
+  }
+}
 
 function drawImage2(){
    const Leg1 = new Image();
@@ -55,6 +200,51 @@ function drawImage2(){
     const canvas = document.querySelector("#image2");
     const ctx = canvas.getContext("2d");
     ctx.drawImage(Leg1, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage202(){
+   const Leg2 = new Image();
+  Leg2.src = "images/leg02.PNG";
+  Leg2.onload = () =>{
+    const canvas = document.querySelector("#image202");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg2, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage203(){
+   const Leg3 = new Image();
+  Leg3.src = "images/leg03.PNG";
+  Leg3.onload = () =>{
+    const canvas = document.querySelector("#image203");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg3, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage204(){
+   const Leg4 = new Image();
+  Leg4.src = "images/leg04.PNG";
+  Leg4.onload = () =>{
+    const canvas = document.querySelector("#image204");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg4, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage205(){
+   const Leg5 = new Image();
+  Leg5.src = "images/leg05.PNG";
+  Leg5.onload = () =>{
+    const canvas = document.querySelector("#image205");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg5, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage206(){
+   const Leg6 = new Image();
+  Leg6.src = "images/leg06.PNG";
+  Leg6.onload = () =>{
+    const canvas = document.querySelector("#image206");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg6, 0, 0, canvas.width, canvas.height);
   }
 }
 
@@ -73,7 +263,7 @@ function drawImage2(){
   const ctx = canvas.getContext("2d");
 
   for(let i=0; i<asset.length; i++){
-    const image2 = await getImagefromCanvas(asset[i]);
+    const image1 = await getImagefromCanvas(asset[i]);
     ctx.drawImage(image1, 0, 0, canvas.width, canvas.height);
   }
 }
