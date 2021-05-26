@@ -29,6 +29,17 @@ window.onload = () => {
   document.querySelector("#btn-concat").addEventListener("click", ()=>{
     concatCanvas("#concat", ["#image1"]);
     });
+  var num = 0;
+     function querySelector("#btn-concat"){
+          if (num == 1) {
+              num = 0;
+          }
+          else {
+              num ++;
+          }
+          src=pics_src[num];
+      }
+  
   document.querySelector("#btn-concat102").addEventListener("click", ()=>{
     concatCanvas("#concat", ["#image102"]);
     });
