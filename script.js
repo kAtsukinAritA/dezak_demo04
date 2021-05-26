@@ -29,9 +29,66 @@ window.onload = () => {
   document.querySelector("#btn-concat").addEventListener("click", ()=>{
     concatCanvas("#concat", ["#image1"]);
     });
+  document.querySelector("#btn-concat102").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image102"]);
+    });
+  document.querySelector("#btn-concat103").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image103"]);
+    });
+  document.querySelector("#btn-concat104").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image104"]);
+    });
+  document.querySelector("#btn-concat105").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image105"]);
+    });
+  document.querySelector("#btn-concat106").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image106"]);
+    });
+  document.querySelector("#btn-concat107").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image107"]);
+    });
+  document.querySelector("#btn-concat108").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image108"]);
+    });
+  document.querySelector("#btn-concat109").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image109"]);
+    });
+  document.querySelector("#btn-concat110").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image110"]);
+    });
+  document.querySelector("#btn-concat111").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image111"]);
+    });
+  document.querySelector("#btn-concat112").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image112"]);
+    });
+  document.querySelector("#btn-concat113").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image113"]);
+    });
+  document.querySelector("#btn-concat114").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image114"]);
+    });
+  document.querySelector("#btn-concat115").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image115"]);
+    });
     
-      document.querySelector("#btn-concat1").addEventListener("click", ()=>{
+   document.querySelector("#btn-concat2").addEventListener("click", ()=>{
     concatCanvas("#concat", ["#image2"]);
+  });
+  document.querySelector("#btn-concat202").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image202"]);
+  });
+  document.querySelector("#btn-concat203").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image203"]);
+  });
+  document.querySelector("#btn-concat204").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image204"]);
+  });
+  document.querySelector("#btn-concat205").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image205"]);
+  });
+  document.querySelector("#btn-concat206").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image206"]);
   });
 
   // 「消しゴム」ボタンを押したらクリア
