@@ -29,17 +29,6 @@ window.onload = () => {
   document.querySelector("#btn-concat").addEventListener("click", ()=>{
     concatCanvas("#concat", ["#image1"]);
     });
-  var num = 0;
-     function querySelector("#btn-concat"){
-          if (num == 1) {
-              num = 0;
-          }
-          else {
-              num ++;
-          }
-       document.getElementById("images").src=pics_src[num];
-      }
-  
   document.querySelector("#btn-concat102").addEventListener("click", ()=>{
     concatCanvas("#concat", ["#image102"]);
     });
@@ -110,7 +99,7 @@ window.onload = () => {
 };
 
 /**
- * [onload] うな重の画像を描画
+ * [onload] ぬいぐるみ画像を描画
  */
 function drawConcat(){
   const Nui = new Image();
@@ -342,18 +331,18 @@ function drawImage206(){
  * @param {string} target 対象canvasのid
  * @return {void}
  */
-function eraseCanvas(target){
-  const Nui = new Image();
-  Nui.src = "images/nui.PNG";
-  Nui.onload = () =>{
-    const canvas = document.querySelector("#concat");
-    const ctx = canvas.getContext("2d");
-    ctx.drawImage(Nui, 0, 0, canvas.width, canvas.height);
-    }
+function eraseCanvas(asset){
+//   const Nui = new Image();
+//   Nui.src = "images/nui.PNG";
+//   Nui.onload = () =>{
+//     const canvas = document.querySelector("#concat");
+//     const ctx = canvas.getContext("2d");
+//     ctx.drawImage(Nui, 0, 0, canvas.width, canvas.height);
+//     }
 
-//   const canvas = document.querySelector(target);
-//   const ctx = canvas.getContext("2d");
-//   ctx.clearRect(0, 0, canvas.width, canvas.height);
+  const canvas = document.querySelector(asset);
+  const ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 
 /**
