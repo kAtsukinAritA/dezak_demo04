@@ -33,6 +33,7 @@ button2{
   align-items: center;
   justify-content: center;
   width: 80%;
+  height: 350px;
   justify-content: center;
   align-items: center;
   border: 3px;
@@ -42,12 +43,10 @@ button2{
 h1{
 	padding-top: 3rem;
 	padding-bottom: 3.5rem;
-  border-color: #b7ffff;
   background-color: #efffff;
 }
 h2{
 	padding-top: 3rem;
 	padding-bottom: 3.5rem;
-  border-color: #ffff99;
-  background-color: #ffffd6;
+  background-color: #ffffd1;
 }
