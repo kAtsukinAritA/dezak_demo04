@@ -5,14 +5,16 @@ canvas{
 button1{
   width: 100px;
   height: 100px;
-  border: 3px #b7ffff;
-  background: #efffff;
+  border:3px;
+  border-color: #b7ffff;
+  background-color:: #efffff;
 }
 button1-2{
   width: 100px;
   height: 100px;
-  border: 3px #ffff99;
-  background: #ffffd6;
+  border:3px;
+  border-color: #ffff99;
+  background-color: #ffffd6;
 }
 button2{
   width: 50px;
@@ -39,6 +41,7 @@ button2{
   width: 80%;
   justify-content: center;
   align-items: center;
-  border: 5px #b7ffff;
-  background: #f7efff;
+  border: 3px;
+  border-color: #b7ffff;
+  background-color: #f7efff;
 }
