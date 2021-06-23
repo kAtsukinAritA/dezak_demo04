@@ -5,18 +5,10 @@ canvas{
 button1{
   width: 100px;
   height: 100px;
-  border:3px lightblue;
-  border-radius: 10px;
-  background-color:: #efffff;
-      padding: 20px;
-/*   #b7ffff */
 }
 button1-2{
   width: 100px;
   height: 100px;
-  border:3px;
-  border-color: #ffff99;
-  background-color: #ffffd6;
 }
 button2{
   width: 50px;
@@ -46,4 +38,16 @@ button2{
   border: 3px;
   border-color: #b7ffff;
   background-color: #f7efff;
+}
+h1{
+	padding-top: 3rem;
+	padding-bottom: 3.5rem;
+  border-color: #b7ffff;
+  background-color: #efffff;
+}
+h2{
+	padding-top: 3rem;
+	padding-bottom: 3.5rem;
+  border-color: #ffff99;
+  background-color: #ffffd6;
 }
