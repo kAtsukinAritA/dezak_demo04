@@ -24,11 +24,13 @@ button2{
   justify-content: center;
   align-items: center;
 }
-    .wrapp div{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    border: 2px #c6ffff;
-    background: #eaffff
-    }
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  border: 3px #c6ffff;
+  background: #eaffff
+}
