@@ -39,6 +39,6 @@ button2{
   width: 80%;
   justify-content: center;
   align-items: center;
-       border: 3px #b7ffff;
-     background: #efffff;
+  border: 5px #b7ffff;
+  background: #f7efff;
 }
