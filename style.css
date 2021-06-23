@@ -5,6 +5,8 @@ canvas{
 button1{
   width: 100px;
   height: 100px;
+  border: 3px #b7ffff;
+  background: #efffff;
 }
 button2{
   width: 50px;
@@ -31,4 +33,6 @@ button2{
   width: 80%;
   justify-content: center;
   align-items: center;
+       border: 3px #b7ffff;
+     background: #efffff;
 }
