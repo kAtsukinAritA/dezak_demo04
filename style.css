@@ -24,13 +24,23 @@ button2{
   justify-content: center;
   align-items: center;
 }
-.box {
+.box1 {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 90%;
   justify-content: center;
   align-items: center;
-  border: 3px #c6ffff;
-  background: #eaffff
+  border: 3px #b7ffff;
+  background: #efffff;
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  border: 3px #ffff99;
+  background: #ffffd6;
 }
