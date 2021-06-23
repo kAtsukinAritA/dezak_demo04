@@ -28,7 +28,7 @@ button2{
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 .box {
   display: flex;
