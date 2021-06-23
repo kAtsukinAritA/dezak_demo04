@@ -8,6 +8,12 @@ button1{
   border: 3px #b7ffff;
   background: #efffff;
 }
+button1-2{
+  width: 100px;
+  height: 100px;
+  border: 3px #b7ffff;
+  background: #efffff;
+}
 button2{
   width: 50px;
   height: 40px;
