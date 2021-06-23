@@ -28,7 +28,6 @@ button2{
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  justify-content:space-around;
 }
 .box {
   display: flex;
@@ -37,6 +36,7 @@ button2{
   width: 80%;
   justify-content: center;
   align-items: center;
+  justify-content:space-around;
   border: 3px;
   border-color: #b7ffff;
   background-color: #f7efff;
